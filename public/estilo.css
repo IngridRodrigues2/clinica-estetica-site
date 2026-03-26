@@ -1,13 +1,17 @@
-   body {
-     margin: 0;
-     font-family: Arial, sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI',Arial, Helvetica, sans-serif;
+    background-color: #fff;
+     
 }
 
 .hero {
-    height: 120vh;
-    background: url("images/imgcli.png") no-repeat center center;
+    height: 100vh;
+    background-image: url("images/imgcli.png");
     background-size: cover;
-    position: relative;
+    background-position: center 40%;
+    background-repeat: no-repeat;    
 }
 
 .overlay {
@@ -16,7 +20,7 @@
     border-radius: 15px;
     text-align: center;
     color: white;
-    transform: translateY(-80px);
+    transform: translateY(140px);
 }
 
 .overlay h1 {
@@ -89,21 +93,13 @@ nav a {
 }
 
 /* Ajuste para não esconder conteúdo atrás do menu */
-.hero {
-    height: 110vh;
-    background: #fdecef;
-    background-position: center 130%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .secao {
     padding: 10px 50px;
     text-align: center;
 }
 .servico{
     overflow: visible;
+    margin-top: 40px;
 }
 
 .servico img{
