@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Clínica Biomédica Estética</title>
+</head>
+<body>
+<header>
+    <nav>
+    <a href="agendamento.html" class="agendar">Agendar</a>
+
+    <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Atendimentos</a></li>
+        <li><a href="#local">Nosso Espaço</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+</nav>
+</header>
+    <section class="hero">
+    <div class="overlay">
+        <h1>Clínica Biomedicina Estética</h1>
+        <p>Estética avançada e harmonização facial</p>
+        <a href="agendamento.html" class="botao">Agendar Consulta</a>
+    </div>
+</section>
+<section id="servico" class="secao clara">
+    <h2>Principais Atendimentos</h2>
+
+    <div class="servicos-grid">
+
+        <div class="servico">
+            <img src="images/harfacil.jpeg">
+            <p>Harmonização Facial</p>
+        </div>
+
+        <div class="servico">
+            <img src="images/preench.jpeg">
+            <p>Preenchimento Labial</p>
+        </div>
+
+        <div class="servico">
+            <img src="images/tox.jpg">
+            <p>Toxina Botulínica</p>
+        </div>
+
+        <div class="servico">
+            <img src="images/skin.jpeg">
+            <p>Skinbooster</p>
+        </div>
+
+        <div class="servico">
+            <img src="images/acne.jpg">
+            <p>Tratamentos para Acne</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="local" class="secao">
+    <h2>Conheça Nosso Espaço</h2>
+    <p>
+        Ambiente moderno, confortável e preparado para oferecer
+        segurança e qualidade em todos os procedimentos.
+    </p>
+</section>
+
+<section id="contato" class="secao clara">
+    <h2>Contato</h2>
+    <p>📧 Email: contato@clinicaexemplo.com</p>
+    <p>📱 Telefone: (24) 99999-9999</p>
+</section>
+
+<script>
+    window.addEventListener("scroll", function() {
+        const header = document.querySelector("header");
+
+        if (window.scrollY > 200) {
+            header.style.top = "0";
+        } else {
+            header.style.top = "-100px";
+        }
+    });
+</script>
+
+</body>
+</html>
